@@ -1,6 +1,6 @@
 //
 //  ScanPhotoViewController.swift
-//  edge_detection
+//   metafy_edge_detection
 //
 //  Created by Henry Leung on 3/9/2021.
 //

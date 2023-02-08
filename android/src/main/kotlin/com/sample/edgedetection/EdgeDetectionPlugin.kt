@@ -20,7 +20,7 @@ class EdgeDetectionPlugin : FlutterPlugin, ActivityAware {
     override fun onAttachedToEngine(binding: FlutterPluginBinding) {
         handler = EdgeDetectionHandler()
         val channel = MethodChannel(
-            binding.binaryMessenger, "edge_detection"
+            binding.binaryMessenger, "metafy_edge_detection"
         )
         channel.setMethodCallHandler(handler)
     }
@@ -62,7 +62,7 @@ class EdgeDetectionHandler : MethodCallHandler, PluginRegistry.ActivityResultLis
             getActivity() == null -> {
                 result.error(
                     "no_activity",
-                    "edge_detection plugin requires a foreground activity.",
+                    "metafy_edge_detection plugin requires a foreground activity.",
                     null
                 )
                 return

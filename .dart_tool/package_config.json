@@ -128,13 +128,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "edge_detection",
+      "name": "metafy_edge_detection",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2023-02-08T06:25:26.475599Z",
+  "generated": "2023-02-08T06:38:32.035907Z",
   "generator": "pub",
   "generatorVersion": "2.17.6"
 }

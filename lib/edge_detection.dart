@@ -3,7 +3,8 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class EdgeDetection {
-  static const MethodChannel _channel = const MethodChannel('edge_detection');
+  static const MethodChannel _channel =
+      const MethodChannel('metafy_edge_detection');
 
   static Future<bool> detectEdge(String saveTo,
       {bool canUseGallery: true,

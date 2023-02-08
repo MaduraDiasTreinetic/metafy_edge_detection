@@ -5,7 +5,7 @@ import WeScan
 public class SwiftEdgeDetectionPlugin: NSObject, FlutterPlugin, UIApplicationDelegate {
     
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "edge_detection", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "metafy_edge_detection", binaryMessenger: registrar.messenger())
         let instance = SwiftEdgeDetectionPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
         registrar.addApplicationDelegate(instance)
