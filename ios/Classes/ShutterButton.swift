@@ -2,8 +2,6 @@
 //  ShutterButton.swift
 //  WeScan
 //
-//  Created by Boris Emorine on 2/26/18.
-//  Copyright © 2018 WeTransfer. All rights reserved.
 //
 
 import UIKit
