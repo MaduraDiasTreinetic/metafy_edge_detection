@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'metafy_edge_detection'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = 'Plugin to detect edges of objects'
   s.description      = <<-DESC
 Plugin to detect edges of objects
