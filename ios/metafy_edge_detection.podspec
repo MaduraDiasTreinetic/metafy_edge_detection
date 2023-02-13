@@ -3,7 +3,7 @@
 # Run `pod lib lint edge_detection.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'edge_detection'
+  s.name             = 'metafy_edge_detection'
   s.version          = '1.1.1'
   s.summary          = 'Plugin to detect edges of objects'
   s.description      = <<-DESC
