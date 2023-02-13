@@ -1,6 +1,6 @@
 #import "EdgeDetectionPlugin.h"
 #if __has_include(<edge_detection/edge_detection-Swift.h>)
-#import <edge_detection/edge_detection-Swift.h>
+#import <metafy_edge_detection/edge_detection-Swift.h>
 #else
 // Support project import fallback if the generated compatibility header
 // is not copied when this plugin is created as a library.
